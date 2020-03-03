@@ -23,7 +23,16 @@ switch ($halaman) {
    case 'contact':
       include 'view/contact.php';
       break;
-
+      case 'register':
+         include 'view/register.php';
+         break;
+         case 'act-register': 
+            include 'modul/act-register.php';
+            break; 
+            case 'login': 
+               include 'view/login.php';
+               break; 
+   
    default:
       include 'view/404.php';
       break;
